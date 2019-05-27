@@ -1,7 +1,20 @@
 /* Nodefinē kontenera maksimālo platumu un ar margin: auto nocentre */
 .container {
-  max-width: 1000px;
+  max-width: var(--max-width);
   margin: auto;
+  background-color: var(--main-bg-color);
+  color: var(--main-txt-color);
+  padding: var(--main-padding);
+  
+}
+
+:root {
+
+--main-bg-color: rgb(206, 225, 241);
+--main-txt-color: black;
+--main-padding: 15px;
+--large-padding: 30px;
+--max-width:1000px;
 }
 
 /* Pieškir izkārtojumu ar css grid, priekš desktop*/
