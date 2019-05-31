@@ -1,1 +1,3 @@
-# Janis-Berkis-Budzetu-kalkulators
+#Budzetu kalkulators
+
+

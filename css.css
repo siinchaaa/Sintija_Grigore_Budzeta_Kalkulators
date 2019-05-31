@@ -1,20 +1,9 @@
+
+
 /* Nodefinē kontenera maksimālo platumu un ar margin: auto nocentre */
 .container {
-  max-width: var(--max-width);
+  max-width: 1000px;
   margin: auto;
-  background-color: var(--main-bg-color);
-  color: var(--main-txt-color);
-  padding: var(--main-padding);
-  
-}
-
-:root {
-
---main-bg-color: rgb(206, 225, 241);
---main-txt-color: black;
---main-padding: 15px;
---large-padding: 30px;
---max-width:1000px;
 }
 
 /* Pieškir izkārtojumu ar css grid, priekš desktop*/
@@ -44,7 +33,7 @@
 
 .container > div {
   padding: 30px;
-  border: 1px blueviolet solid;
+  border: 1px cadetblue solid;
 }
 
 .container > div h1 {
@@ -77,3 +66,26 @@
 .list__total {
   align-self: flex-end;
 }
+/* 
+CSS UZDEVUMI
+Nostilot galvenes un saraksta elementus
+-"Pieejamais budžets" tekstam piešķirt stilu, kas labi iederas kopējā dizainā
+-Ievades laukiem piešķirt vizuāli pievilcīgu stilu (font-size, border, padding)
+-Nostilot pogas vizuāli pievilcīgi
+-Izcelt kopējo izdevumu un ienākumu izvadi
+-Ienākumu un izdevumu sarakstam piešķirt stilu, kas labāk nodala saraksta ierakstus vienu no otra
+
+*/
+
+.budget__title {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: sans-serif
+}
+
+#add_description, #add_value {
+  font-size: 15px;
+  border: solid thin steelblue;
+  padding: 5px;
+  
+} 
