@@ -80,7 +80,7 @@ Nostilot galvenes un saraksta elementus
 .budget__title {
   font-weight: bold;
   font-size: 25px;
-  font-family: sans-serif
+  
 }
 
 #add_description, #add_value {
@@ -89,3 +89,12 @@ Nostilot galvenes un saraksta elementus
   padding: 5px;
   
 } 
+
+
+button {
+  border: solid thin cornflowerblue;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(204, 201, 201);
+}
+
